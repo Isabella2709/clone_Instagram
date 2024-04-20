@@ -1,0 +1,57 @@
+.header {
+  background: var(--background);
+  border-bottom: 1px solid var(--border);
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  max-width: 957px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.header .container .logo {
+  width: 100px;
+  cursor: pointer;
+}
+
+.inputFake {
+  background-color: var(--background-main);
+  border-radius: 3px;
+
+  padding: 3px 10px;
+
+  border: 1px solid var(--border);
+
+  border-radius: 3px;
+
+  display: flex;
+  align-items: center;
+}
+
+.inputFake input {
+  font-size: 14px;
+  padding: 0 7px;
+}
+
+.menu-icons{
+    gap: 20px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    size: 20px;
+}
+
+.menu-icons .img-user{
+    width: 26px;
+    height: 26px;
+    border-radius: 60%;
+}
